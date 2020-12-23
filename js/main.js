@@ -2,6 +2,9 @@ let tabsFuction = function(){
   let tabs = document.querySelectorAll('.tabs');
   let tabsItem = document.querySelectorAll('.tab');
   let tabName;
+ 
+
+
   
   tabs.forEach(item =>{
     item.addEventListener('click',tabsBootm);
@@ -23,4 +26,10 @@ let tabsFuction = function(){
 };
 tabsFuction();
 
-  
+ let iconeHover = function(){
+      
+  let icone = document.querySelector('.structure__icone');
+   console.log(icone);
+         
+ };
+ document.querySelector('.icone').mouseover=iconeHover;
