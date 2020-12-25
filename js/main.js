@@ -26,10 +26,17 @@ let tabsFuction = function(){
 };
 tabsFuction();
 
- let iconeHover = function(){
-      
-  let icone = document.querySelector('.structure__icone');
-   console.log(icone);
-         
- };
- document.querySelector('.icone').mouseover=iconeHover;
+
+let tabavtive = function (e){
+   let tab = document.querySelector('.customer-reviews__tab-1');
+   let tabs = document.querySelector('.customer-reviews__tab-2');
+
+   function tabcComments (e){
+  
+   
+    console.log(e);
+   }
+   document.querySelector('.customer-reviews__tab-1,customer-reviews__tab-2').onclick = tabcComments;
+
+};
+tabavtive();
