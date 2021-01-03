@@ -1,6 +1,9 @@
 let tabsFuction = function(){
   let tabs = document.querySelectorAll('.tabs');
   let tabsItem = document.querySelectorAll('.tab');
+  let tabCustomer = document.querySelectorAll(".customer-reviews__content");
+  let commentTabsActive = document.querySelector (".customer-reviews__tab-1.tabs");
+  let commentTabs = document.querySelector (".customer-reviews__tab-2.tabs");
   let tabName;
  
 
