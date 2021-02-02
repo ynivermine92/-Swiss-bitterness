@@ -1302,14 +1302,44 @@ display: none;
 .structure__wraper-table{
   display: none;
 }
-/* @media (max-width: 1026px){
+.your-recipe-container-m{
+  display: none;
+}
+.warranty__inner-tablet{
+  display: none;
+}
+.warranty-title-tablet{
+  display: none;
+}
 
-} */
+ @media (max-width: 1026px){
+.footer___text{
+  display: none;
+} 
 
 @media (max-width: 1606px){
   .history__form{
     justify-content: start;
     padding-left: 27px;
+  }
+  .your-recipe-container{
+    display: none;
+  }
+  .your-recipe-container-m{
+    display: block;
+  }
+  .your-recipe__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .your-recipe-icone{
+    background-image: url(../images/icone__recipe.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    height: 775px;
+    background-position: center;
   }
 }
 @media (max-width: 1500px){
@@ -1483,6 +1513,14 @@ display: none;
  
   }
 }
+@media (max-width: 1190px){
+  .footer___text a{
+    margin-right: 20px;
+  }
+  .footer___text a:nth-child(1){
+    margin-left: 14px;
+  }
+}
 @media (max-width: 1152px){
   .list__title {
     font-size: 36px;
@@ -1493,6 +1531,48 @@ display: none;
   .tabs__inner{
     bottom: 26px;
   }
+  .warranty-title{
+    text-align: center;
+  }
+  .warranty__content-sub-title{
+    text-align: center;
+  }
+  .warranty__inner-tablet{
+    background-color: #f6f9f3;
+  }
+  .warranty__icone-headset{
+    background-image: url(../images/warranty.png);
+    width: 416px;
+    height: 644px; 
+    margin-top: 60px;
+  }
+  .warranty-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .warranty__inner-tablet {
+    display: block;
+    margin-top: 60px;
+    padding-top: 60px;
+}
+.warranty__content-sub-title{
+font-size: 17px;
+line-height: 24px;
+font-weight: 700;
+}
+.warranty__inner{
+  display: none;
+}
+.warranty__icone{
+  display: none;
+}
+.warranty-title-tablet{
+  display: block;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+}
 }
 @media (max-width:1113px){
   .customer-reviews__inner-wrapper{
@@ -1507,6 +1587,22 @@ display: none;
 }
 .customer-reviews__btn{
   width: 482px;
+}
+.warranty__inner{
+  display: none;
+}
+.warranty__icone{
+  display: none;
+}
+.warranty__inner-tablet{
+  display: block;
+}
+.warranty__content-sub-title{
+  padding-left: 0px;
+  font-size: 14px;
+}
+.warranty__content-wrapper{
+  margin-left: 0px;
 }
 }
 
@@ -2133,6 +2229,12 @@ font-weight: 400;
 .customer-reviews__link{
   display: block;
 }
+.customer-reviews{
+  padding-bottom: 98px;
+}
+.your-recipe{
+ padding-bottom: 98px;
+}
 }
 @media (max-width:744px){
   .top__inner_form{
@@ -2193,6 +2295,18 @@ font-weight: 400;
 .structure__effect{
  left: 19px;
 }
+}
+@media (max-width: 708px) {
+  .your-recipe__content-title{
+    font-size: 30px;
+    text-align: center;
+  }
+  .your-recipe__content{
+    padding: 0px;
+  }
+  .your-recipe__content-title{
+    padding-top: 54px;
+  }
 }
 @media (max-width: 690px) {
   .header__phone a{
@@ -2274,13 +2388,43 @@ font-weight: 400;
   .customer-reviews__tab-2.tabs-tab{
     font-size: 12px !important;
   }
+  .warranty__content-wrapper{
+    padding: 0px;
+  }
+  .warranty__content__wrapper-border{
+    padding: 15px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .warranty__btn{
+    margin-left: 0px;
+  }
 }
+@media (max-width: 570px){
 @media (max-width: 570px){
   .customer-reviews__text {
     font-size: 14px;
 }
 .customer-reviews__title{
   font-size: 23px;
+}
+}
+@media (max-width: 568px){
+.your-recipe__content-text {
+  font-size: 14px;
+  font-weight: 500;
+  width: 300px;
+}
+.your-recipe__btn{
+  width: 350px;
+  font-size: 12px;
+}
+.your-recipe__btn img{
+  display: none;
+}
+.your-recipe__content-sabtitle{
+  font-size: 12px;
 }
 }
 @media (max-width: 556px){
@@ -2340,6 +2484,29 @@ font-weight: 400;
  .reputation-btn{
    font-size: 12px;
  }
+}
+ @media (max-width: 521px){
+  .warranty__content-sub-title {
+  padding-left: 0px;
+  font-size: 14px;
+  width: 306px;
+  text-align: center;
+  margin: 0 auto;
+ }
+.warranty__content__wrapper-border{
+   padding: 0px;
+   width: 300px;
+}
+.warranty__content-text{
+  font-size: 17px !important;
+  padding-left: 10px;
+}
+.warranty__btn{
+  width: 300px;
+}
+.warranty__content-text{
+  margin-top: 10px;
+}
 }
 @media (max-width: 507px) {
   .benefit__icone:nth-child(1){
@@ -2432,7 +2599,24 @@ font-weight: 400;
     .top__block-form{
       margin-top: 630px !important;
     }
+    .your-recipe__content-title {
+      font-size: 24px;
   }
+  .your-recipe__content-text{
+     font-size: 14px;
+     width: 300px;
+     padding-left: 10px;
+  }
+  .your-recipe__content-sabtitle {
+    font-size: 16px;
+    text-align: center;
+}
+.warranty__icone-headset{
+  width: 280px;
+  height: 434px;
+  background-image: url(../images/warranty-mob.png);
+}
+}
   @media (max-width: 441px){
   .benefit__title-table{
     font-size:18px;
@@ -2449,6 +2633,13 @@ font-weight: 400;
  .advantages__item{
   width: 240px;
 }
+.footer__logo img {
+  width: 115px;
+}
+.footer__phone a{
+  font-size: 14px;
+}
+
 }
 @media (max-width: 429px){
   .tab-1.active  {
@@ -2490,7 +2681,20 @@ font-weight: 400;
    .history__form-icone{
     padding-right: 0px;
    }
+   .warranty__inner-tablet{
+    margin-top: 30px;
+   }
 } 
+@media (max-width: 429px){
+  .warranty-title{
+    font-size: 34px;
+  }
+}
+@media (max-width: 417px){
+  .warranty__content-text{
+    font-size: 14px;
+  }
+}
 @media (max-width: 412px){
   .tab-1.active  {
     left: 104px;
@@ -2520,7 +2724,13 @@ font-weight: 400;
    .tab-9 {
     left: 174px;
    }
-
+.your-recipe__btn {
+  width: 300px;
+  font-size: 14px;
+}
+.your-recipe__icone-wraper{
+  padding: 2px;
+}
 } 
 
 @media (max-width: 403px){
@@ -2734,6 +2944,9 @@ font-weight: 400;
   .history__wrapper-icone{
     width: 304px;
   }
+  .your-recipe__content-title {
+    font-size: 20px;
+}
 }
   @media (max-width: 370px){
     .tab-1.active  {
@@ -2834,6 +3047,9 @@ font-weight: 400;
          }
          .tab-9 {
           left: 147px;
+         }
+         .your-recipe-icone{
+             display: none;
          }
   }
    @media (max-width: 358px){
@@ -3205,4 +3421,20 @@ color: #303030;
   .structure__icone-12{
     width: 292px ;
   }
+  .customer-reviews{
+    padding-bottom: 60px;
+  }
+  .your-recipe__icone-wraper{
+    margin-top: 0px;
+  }
+  .structure {
+    padding-bottom: 60px;
+}
+.customer-reviews__title{
+  padding-bottom: 20px;
+  line-height: 30px;
+}
+.your-recipe{
+  padding-bottom:50px;
+ }
 }
