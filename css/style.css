@@ -1302,7 +1302,7 @@ display: none;
 .structure__wraper-table{
   display: none;
 }
-.your-recipe-container-m{
+.{
   display: none;
 }
 .warranty__inner-tablet{
@@ -1312,11 +1312,17 @@ display: none;
   display: none;
 }
 
- @media (max-width: 1026px){
-.footer___text{
-  display: none;
-} 
-
+  @media (max-width: 1026px){
+    .footer__logo{
+      width: 137px;
+    }
+    .footer___text a{
+       font-size: 10px;
+    }
+  .footer__phone a{
+    font-size: 16px;
+  }
+ }
 @media (max-width: 1606px){
   .history__form{
     justify-content: start;
@@ -1521,6 +1527,14 @@ display: none;
     margin-left: 14px;
   }
 }
+@media (max-width: 1181px){
+  .footer___text a:nth-child(1) {
+    margin-left: 15px;
+}
+.footer___text a{
+  margin-right: 20px;
+}
+}
 @media (max-width: 1152px){
   .list__title {
     font-size: 36px;
@@ -1644,7 +1658,11 @@ font-weight: 700;
 }
 
 
-
+@media (max-width:985px){
+  .footer___text{
+    display: none;
+  }
+}
 @media (max-width: 945px){
     .list__title {
       font-size: 30px;
@@ -1715,6 +1733,11 @@ font-weight: 700;
   font-size: 20px;
 }
 }
+@media (max-width:846px){
+  .footer___text{
+    display: none ;
+  }
+}
 @media (max-width: 804px){
   .tabs__content .tabs {
     padding-top: 13px;
@@ -1753,6 +1776,12 @@ font-weight: 700;
 }
 }
 @media (max-width: 768px){
+.your-recipe__icone-wraper{
+  margin-top: 0px;
+}
+.structure {
+  padding-bottom: 90px;
+}
 .benefit__title-table{
   display: block;
   font-size: 30px;
@@ -3180,6 +3209,10 @@ font-weight: 400;
      .tab-9 {
       left: 132px;
      }
+     .footer__phone a {
+      font-size: 13px;
+  }
+  
 } 
   @media (max-width: 320px){
     .top__imeges-mob{
